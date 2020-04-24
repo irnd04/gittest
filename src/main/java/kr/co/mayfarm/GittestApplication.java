@@ -24,6 +24,7 @@ public class GittestApplication implements CommandLineRunner {
 		// TODO Auto-generated method stub
 		welcomeService.welcome();
 		log.info("...");
+		log.debug("debug....");
 	}
 
 }
