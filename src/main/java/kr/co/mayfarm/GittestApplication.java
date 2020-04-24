@@ -4,6 +4,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import kr.co.mayfarm.service.FixService;
 import kr.co.mayfarm.service.WelcomeService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -14,6 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 public class GittestApplication implements CommandLineRunner {
 	
 	private final WelcomeService welcomeService;
+	private final FixService fixService;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(GittestApplication.class, args);
@@ -27,6 +29,7 @@ public class GittestApplication implements CommandLineRunner {
 		log.debug("debug....");
 		log.error("error....");
 		log.info("master");
+		fixService.fix();
 	}
 
 }
