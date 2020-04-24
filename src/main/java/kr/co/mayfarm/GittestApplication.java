@@ -30,6 +30,7 @@ public class GittestApplication implements CommandLineRunner {
 		log.error("error....");
 		log.info("master");
 		fixService.fix();
+
 	}
 
 }
