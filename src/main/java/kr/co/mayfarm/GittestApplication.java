@@ -25,7 +25,8 @@ public class GittestApplication implements CommandLineRunner {
 		welcomeService.welcome();
 		log.info("...");
 		log.debug("debug....");
-		log.info("gittest");
+		log.error("error....");
+		log.info("master");
 	}
 
 }
