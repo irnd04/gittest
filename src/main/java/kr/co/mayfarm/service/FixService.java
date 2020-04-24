@@ -10,5 +10,6 @@ public class FixService {
     public void fix() {
         log.info("fix......");
         log.info("fix....");
+        log.info("fix...");
     }
 }
