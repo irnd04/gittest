@@ -11,5 +11,6 @@ public class FixService {
         log.info("fix......");
         log.info("fix....");
         log.info("fix...");
+        log.info("master fix...");
     }
 }
